@@ -39,7 +39,7 @@ async function registerBigToken(email, referral) {
                 email: email,
                 password: "Lolipop1902@",
                 referral_id: referral,
-                monetize: 1
+                monetize: 1000
             }
         });
         return cURL;
